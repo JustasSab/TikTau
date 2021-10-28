@@ -1,0 +1,76 @@
+/* Header Button */
+.button-book-now{
+    text-align: center;
+    background-color: rgba(85, 85, 85, 0.055);
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 23px;
+    padding: .75rem;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    -webkit-animation: fadein 5s;
+}
+.button-book-now a{
+    color: inherit;
+}
+.button-book-now:hover{
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 5px, 0);
+    color: #be9342;
+}
+.button-book-now:focus{
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+/* Button Service Book Appointment */
+.service-book{
+    text-align: center;
+}
+.button-service-book{
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 23px;
+    padding: .75rem;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+}
+.button-service-book a{
+    color: inherit;
+}
+.button-service-book:hover{
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 5px, 0);
+    color: #be9342;
+}
+.button-service-book:focus{
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}

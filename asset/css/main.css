@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+@import "buttons.css";
+@import "gallery.css";
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+    background-color: rgba(225, 225, 225, 0.664);
+}
+/* ############################# NavBars ############################# */
+/* Start Main Page Navbar */
+.navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    padding: 0;
+    z-index:1;
+    transition: 0.6s;
+}
+.navbar a{
+    color: inherit;
+    color: white;
+}
+.nav-item a{
+    font-size: 1.1em;
+}
+.nav-item a:hover{
+    color: #be9342 !important;
+    text-decoration: underline;
+    transition: 0.6s;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2em;
+    text-align: left;
+    margin-left: 7.5em;
+    transition: 0.6s;
+}
+.navbar-nav{
+    margin-right: 10em;
+}
+.navbar-toggler{
+    border-color: white;
+    margin-right: 1em;
+}
+.navbar-toggler i{
+    color: white;
+}
+.navbar-collapse{
+    margin-left: 1em;
+}
+.navbar:hover{
+    background-color:white;
+    color: black;
+    transition: 0.6s;
+}
+.navbar:hover a{
+    transition: 0.5s;
+    color: black;
+}
+.navbar:hover .navbar-toggler i{
+    color: black;
+    transition: 0.6s;
+}
+.navbar:hover .navbar-toggler{
+    border-color: black;
+    transition: 0.6s;
+}
+
+    /* Scroll JS Classes */
+    .nav-colored{
+        background-color:white;
+        color: black;
+        transition: 0.5s;
+        border-bottom: 1px solid rgba(172, 172, 172, 0.507);
+    }
+    .nav-colored.navbar a{
+        color: black;
+        transition: 0.5s;
+    }
+    .nav-colored.navbar .navbar-toggler{
+        border-color: black;
+        transition: 0.5s;
+    }
+    .nav-colored.navbar .navbar-toggler i{
+        color: black;
+    }
+    .nav-transparent{ 
+        background-color:transparent;
+    }
+    /* End Scroll JS Classes */
+
+/* End Main Page Navbar */
+
+/* Start White Navbar */
+#navbar{
+    background-color: rgb(238, 238, 238);
+}
+#navbar a{
+    color: black;
+}
+#navbar a:hover{
+    color: #be9342;
+}
+#navbar-toggler{
+    border-color: black;
+}
+/* End White Navbar */
+/* ############################# End NavBars ############################# */
+
+/* ############################# Start Header ############################# */
+.header{
+    background-image: url("../image/main-page.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 720px;
+}
+.header-content{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    color: white;
+    text-align: center;
+    -webkit-animation: fadein 1s;
+}
+.header-description{
+    -webkit-animation: fadein 3s;
+}
+/* ############################# End Header ############################# */
+
+/* ############################# Start Page Banners ############################# */
+.about-banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../image/about-banner.jpg");
+    background-position: right 50% bottom 20%;
+    background-size: cover;
+    height: 400px;
+    background-color: #ffffff;
+}
+.team-banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../image/team-banner.jpg");
+    background-position: right 50% bottom 20%;
+    background-size: cover;
+    height: 400px;
+    background-color: #ffffff;
+}
+.services-banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../image/service-banner.jpg");
+    background-position: right 50% bottom 20%;
+    background-size: cover;
+    height: 400px;
+    background-color: #ffffff;
+}
+.gallery-banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../image/service-banner.jpg");
+    background-position: right 50% bottom 20%;
+    background-size: cover;
+    height: 400px;
+    background-color: #ffffff;
+}
+.banner-content{
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 45%;
+    color: white;
+}
+.banner-content h1{
+    font-size: 50px;
+}
+.banner-content hr{
+    width: 210px;
+    border-width: 2px;
+    background-color: #be9342;
+}
+/* ############################# End Page Banners ############################# */
+
+/*
+############################# Start Footer #############################
+*/
+footer h6{
+    margin-bottom: 40px;
+    position: relative;
+}
+footer h6:after{
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+}
+.btn-footer{
+    color: black;
+    text-decoration: none;
+    border: 1.5px solid;
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    line-height: 47px;
+}
+.btn-footer:hover{
+    color: #be9342;
+    text-decoration: none;
+}
+.social .fa{
+    color: white;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+.social .fa:hover{
+    color: #be9342;
+}
+footer ul li{
+    list-style: none;
+    display: block;
+}
+footer ul {
+   padding-left: 0;
+}
+footer ul li a{
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    text-decoration: none;
+    color: #be9342;
+}
+.logo-footer{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2em;
+    color: inherit;
+}
+.logo-footer a:hover{
+    color: #be9342;
+}
+.logo-part{
+    border-right: 1px solid grey;
+    height: 100%;
+}
+/* ############################# End Footer ############################# */
+
+/* ############################# Sections ############################# */
+section{
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+/* Start Services Section */
+.service-container{
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+div.box{
+    float: left;
+    width: 50%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+div.box:nth-child(odd){
+    margin-right: 1px;
+}
+div.box:nth-child(even){
+    margin-left: -1px;
+}
+#d1, #d2, #d3, #d4{
+    font-size: 16px;
+    padding: 10px;
+    color: black;
+    margin: auto;
+}
+.services-header{
+    padding-top: 80px;
+    -webkit-animation: fadein 1s;
+}
+.services-menu, .services-header{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.services-menu li{
+    padding: 10px;
+    display: inline;
+    color: gray;
+    -webkit-animation: fadein 2s;
+}
+.services-menu-button{
+    cursor: pointer;
+    font-weight: normal;
+}
+.services-menu-button a{
+    color: inherit;
+    font-size: 15px;
+}
+.services-menu-button:hover{
+    color: black;
+}
+.service-two-info{
+    -webkit-animation: fadein 4s;
+}
+.service-menu-title {
+    font: bold;
+    font-size: 16px;
+}
+.service-menu-description{
+    margin-top: 30px;
+    color: gray;
+    font-size: 14px;
+}
+/* End Services Section */
+
+/* Start Team Section */
+.user-pic{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 20px auto 20px;
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    border-top: 3px solid #be9342;
+    border-bottom: 3px solid #be9342;
+    /* transform: rotate(-30deg); */
+    transition: 0.5s;
+}
+.card-box:hover .user-pic{
+    transform: rotate(0deg);
+    transform: scale(1.1);
+}
+.card-box:hover h4{
+    font-size: 24.5px;
+    transition: 0.5s;
+}
+.card-box:hover h6{
+    font-size: 16.5px;
+    transition: 0.5s;
+}
+.card-box{
+    padding: 15px;
+    background-color: #fdfdfd;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 8px 0px #d4d4d4;
+    transition: 0.5s;
+}
+.card-box:hover{
+	border: 1px solid #be9342;
+}
+.card-box p{
+    color: #808080;
+}
+/* End Team Section */
+
+/* Start About Section */
+.about-section{
+    overflow: hidden;
+    text-align:center;
+}
+.about-item{
+    padding-top: 50px;
+    display: inline-block;
+    width: 420px;
+}
+.about-item:hover h6{
+    font-size: 20.4px;
+}
+.about-item:hover p{
+    font-size: 17.4px;
+}
+.about-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-description{
+    font-size: 17px;
+}
+/* End About Section */
+/* ############################# End Sections #############################  */
+
+@media screen and (max-width: 890px) {
+    .navbar-brand {
+        margin-left: 1em;
+        transition: 0.6s;
+    }
+}
