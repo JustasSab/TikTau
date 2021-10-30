@@ -7,14 +7,16 @@ include 'database/db_connection.php';
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Title</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Scripts -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link rel="stylesheet" href="asset/css/main.css">
     </head>
-<body></body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" id="home">
 <div class="navbar">
     <?php include 'layouts/top-navbar.php';?>
 </div>
@@ -23,15 +25,15 @@ include 'database/db_connection.php';
     <?php include 'layouts/header.php';?>
 </div>
 
-<div id="right-content">
-    <div class="services-header">
+<div class="fluid-container">
+    <div class="services-header" id="services">
         <h2 class="">Service Menu</h2>
     </div>
 
     <section class="services-section" id="services-section">
-        <ul class="services-menu">
-            <li class="services-menu-button" onclick="opend1()">
-                <a class="services-menu-active active">HAIRCUT</a>
+        <ul class="services-menu" id="services-menu">
+            <li class="services-menu-button active" onclick="opend1()">
+                <a class="services-menu-active">HAIRCUT</a>
             </li>
             <li class="services-menu-button" onclick="opend2()">
                 <a class="services-menu-active">STYLING</a>
@@ -224,16 +226,12 @@ include 'database/db_connection.php';
     <!-- End Services Section -->
 
     <!-- Start Team Section -->
-    <section class="team-section">
+    <section class="team-section" id="team">
         <div class="container-fluid team-banner">
-            <div class="row">
-                <div class="banner-content">
-                    <div class="container">
-                        <h1 class="banner-title">Meet Our Team</h1>
-                        <hr>
-                    </div>
-                    <!-- <p>Discover Your Style & Beauty</p> -->
-                </div>
+            <div class="banner-content">
+                <h1 class="banner-title">Meet Our Team</h1>
+                <hr>
+                <!-- <p>Discover Your Style & Beauty</p> -->
             </div>
         </div>
         <div class="container">
@@ -296,16 +294,12 @@ include 'database/db_connection.php';
     <!-- End Team Section -->
 
     <!-- Start About Section -->
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="container-fluid about-banner">
-            <div class="row">
-                <div class="banner-content">
-                    <div class="container">
-                        <h1 class="banner-title">About Us</h1>
-                        <hr>
-                    </div>
-                    <!-- <p>Discover Your Style & Beauty</p> -->
-                </div>
+            <div class="banner-content">
+                <h1 class="banner-title">About Us</h1>
+                <hr>
+                <!-- <p>Discover Your Style & Beauty</p> -->
             </div>
         </div>
         <div class="about">
@@ -340,16 +334,12 @@ include 'database/db_connection.php';
     </section>
     <!-- End About Section -->
 
-    <!-- Start About Section -->
-    <section class="gallery-section">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="banner-content">
-                    <div class="container">
-                        <h1 class="banner-title">Photo Gallery</h1>
-                        <hr>
-                    </div>
-                </div>
+    <!-- Start Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container-fluid gallery-banner">
+            <div class="banner-content">
+                <h1 class="banner-title">Photo Gallery</h1>
+                <hr>
             </div>
         </div>
         <section id="portfolio">

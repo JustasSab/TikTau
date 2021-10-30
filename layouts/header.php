@@ -5,5 +5,3 @@
         <button class="button-book-now" id="button-book-now" role="button">Book Now</button>
     </a>
 </div>
-
-

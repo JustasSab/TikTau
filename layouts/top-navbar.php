@@ -6,18 +6,21 @@
         <i class="fa fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto" id="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="services.php">Services</a>
+                <a class="nav-link active" href="#home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="team.php">Team</a>
+                <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about.php">About Us</a>
+                <a class="nav-link"href="#team">Team</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about.php">Gallery</a>
+                <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
             </li>
         </ul>
     </div>

@@ -15,7 +15,7 @@
             <div class="col-md-6 px-4">
                <h6>About Company</h6>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-               <a href="about.php" class="btn-footer">More Info </a><br>
+               <a href="#" class="btn-footer">More Info </a><br>
             </div>
          </div>
       </div>

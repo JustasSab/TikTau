@@ -11,3 +11,9 @@ window.onscroll = function () {
         scrollNav.classList.remove("nav-colored");
     }
 };
+
+// On click add text-decoration for #navbar-nav <a> tags
+$('#navbar-nav li a').on('click', function() {
+    $('#navbar-nav li a.active').removeClass('active');
+    $(this).addClass('active');
+ });
