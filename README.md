@@ -1,7 +1,7 @@
 # Beauty Studio Template
 
 ## About The Project
-Beauty Studio landing page.
+Responsive Beauty Studio landing page.
 
 ## Built With
 * PHP7
