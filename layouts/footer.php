@@ -41,7 +41,7 @@
                      <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                   </div>
                   <br>
-                  <p class="copyright">Author: JustasSab © 2021</p>
+                  <p class="copyright">Author: <a class="author-link" href="https://github.com/JustasSab">JustasSab</a>  © 2021</p>
                </div>
             </div>
          </div>

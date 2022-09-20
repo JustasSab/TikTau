@@ -7,10 +7,10 @@
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+body {
     padding: 0;
     margin: 0;
     height: 100%;
@@ -21,7 +21,7 @@ body{
 }
 /* ############################# NavBars ############################# */
 /* Start Main Page Navbar */
-.navbar{
+.navbar {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -31,80 +31,78 @@ body{
     z-index:1;
     transition: 0.6s;
 }
-.navbar a{
+.navbar a {
     color: inherit;
     color: white;
 }
-.nav-item a{
+.nav-item a {
     font-size: 1.1em;
 }
-.nav-item a:hover{
+.nav-item a:hover {
     color: #be9342 !important;
     text-decoration: underline;
     transition: 0.6s;
 }
-.navbar-brand{
+.navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-size: 2.2em;
     text-align: left;
     margin-left: 7.5em;
     transition: 0.6s;
 }
-.navbar-nav{
+.navbar-nav {
     margin-right: 5em;
 }
-.nav-link.active{
+.nav-link.active {
     text-decoration: underline;
 }
-.navbar-toggler{
+.navbar-toggler {
     border-color: white;
     margin-right: 1em;
 }
-.navbar-toggler i{
+.navbar-toggler i {
     color: white;
 }
-.navbar-collapse{
+.navbar-collapse {
     margin-left: 1em;
 }
-.navbar:hover{
+.navbar:hover {
     background-color:white;
     color: black;
     transition: 0.6s;
 }
-.navbar:hover a{
+.navbar:hover a {
     transition: 0.5s;
     color: black;
 }
-
-
-.navbar:hover .navbar-toggler i{
+.navbar:hover .navbar-toggler i {
     color: black;
     transition: 0.6s;
 }
-.navbar:hover .navbar-toggler{
+.navbar:hover .navbar-toggler {
     border-color: black;
     transition: 0.6s;
 }
 
     /* Scroll JS Classes */
-    .nav-colored{
+    .nav-colored {
         background-color:white;
         color: black;
         transition: 0.5s;
         border-bottom: 1px solid rgba(172, 172, 172, 0.507);
     }
-    .nav-colored.navbar a{
+    .nav-colored.navbar a {
         color: black;
         transition: 0.5s;
     }
-    .nav-colored.navbar .navbar-toggler{
+    .nav-colored.navbar .navbar-toggler {
         border-color: black;
         transition: 0.5s;
     }
-    .nav-colored.navbar .navbar-toggler i{
+    .nav-colored.navbar .navbar-toggler i {
         color: black;
     }
-    .nav-transparent{ 
+    .nav-transparent { 
         background-color:transparent;
     }
     /* End Scroll JS Classes */
@@ -112,23 +110,23 @@ body{
 /* End Main Page Navbar */
 
 /* Start White Navbar */
-#navbar{
+#navbar {
     background-color: rgb(238, 238, 238);
 }
-#navbar a{
+#navbar a {
     color: black;
 }
-#navbar a:hover{
+#navbar a:hover {
     color: #be9342;
 }
-#navbar-toggler{
+#navbar-toggler {
     border-color: black;
 }
 /* End White Navbar */
 /* ############################# End NavBars ############################# */
 
 /* ############################# Start Header ############################# */
-.header{
+.header {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("../image/main-page.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -136,7 +134,7 @@ body{
     background-attachment: fixed;
     height: 720px;
 }
-.header-content{
+.header-content {
     position: absolute;
     top: 5%;
     left: 45%;
@@ -144,34 +142,34 @@ body{
     text-align: center;
     -webkit-animation: fadein 1s;
 }
-.header-description{
+.header-description {
     -webkit-animation: fadein 3s;
 }
 /* ############################# End Header ############################# */
 
 /* ############################# Start Page Banners ############################# */
-.about-banner{
+.about-banner {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../image/about-banner.jpg");
     background-position: right 50% bottom 20%;
     background-size: cover;
     height: 400px;
     background-color: #ffffff;
 }
-.team-banner{
+.team-banner {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../image/team-banner.jpg");
     background-position: right 50% bottom 20%;
     background-size: cover;
     height: 400px;
     background-color: #ffffff;
 }
-.services-banner{
+.services-banner {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../image/service-banner.jpg");
     background-position: right 50% bottom 20%;
     background-size: cover;
     height: 400px;
     background-color: #ffffff;
 }
-.gallery-banner{
+.gallery-banner {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../image/service-banner.jpg");
     background-position: right 50% bottom 20%;
     background-size: cover;
@@ -179,15 +177,15 @@ body{
     background-color: #ffffff;
     margin-bottom: 40px;
 }
-.banner-content{
+.banner-content {
     padding-top: 150px;
     color: white;
 }
-.banner-content h1{
+.banner-content h1 {
     font-size: 50px;
     text-align: center;
 }
-.banner-content hr{
+.banner-content hr {
     width: 210px;
     border-width: 2px;
     background-color: #be9342;
@@ -198,11 +196,11 @@ body{
 /*
 ############################# Start Footer #############################
 */
-footer h6{
+footer h6 {
     margin-bottom: 40px;
     position: relative;
 }
-footer h6:after{
+footer h6:after {
     position: absolute;
     content: "";
     background: grey;
@@ -211,7 +209,7 @@ footer h6:after{
     left: 0;
     bottom: -20px;
 }
-.btn-footer{
+.btn-footer {
     color: black;
     text-decoration: none;
     border: 1.5px solid;
@@ -220,113 +218,117 @@ footer h6:after{
     padding: 7px 30px;
     line-height: 47px;
 }
-.btn-footer:hover{
+.btn-footer:hover {
     color: #be9342;
     text-decoration: none;
 }
-.social .fa{
+.social .fa {
     color: white;
     font-size: 22px;
     padding: 10px 15px;
     background: #3c3c3c;
 }
-.social .fa:hover{
+.social .fa:hover {
     color: #be9342;
 }
-footer ul li{
+footer ul li {
     list-style: none;
     display: block;
 }
 footer ul {
    padding-left: 0;
 }
-footer ul li a{
+footer ul li a {
     text-decoration: none;
     color: grey;
 }
-a:hover{
+a:hover {
     text-decoration: none;
     color: #be9342;
 }
-.logo-footer{
+.logo-footer {
     font-family: 'Dancing Script', cursive;
     font-size: 2.2em;
     color: inherit;
 }
-.logo-footer a:hover{
+.logo-footer a:hover {
     color: #be9342;
 }
-.logo-part{
+.logo-part {
     border-right: 1px solid grey;
     height: 100%;
 }
+.author-link {
+    color: inherit;
+    text-decoration: underline;
+}    
 /* ############################# End Footer ############################# */
 
 /* ############################# Sections ############################# */
-section{
+section {
     overflow: hidden;
     margin-bottom: 100px;
 }
 /* Start Services Section */
-.service-container{
+.service-container {
     position: relative;
     width: 60%;
     overflow: hidden;
 }
-div.box{
+div.box {
     float: left;
     width: 50%;
     padding-right: 50px;
     padding-left: 50px;
 }
-div.box:nth-child(odd){
+div.box:nth-child(odd) {
     margin-right: 1px;
 }
-div.box:nth-child(even){
+div.box:nth-child(even) {
     margin-left: -1px;
 }
-#d1, #d2, #d3, #d4{
+#d1, #d2, #d3, #d4 {
     font-size: 16px;
     padding: 10px;
     color: black;
     margin: auto;
 }
-.services-header{
+.services-header {
     padding-top: 80px;
     -webkit-animation: fadein 1s;
 }
-.services-menu, .services-header{
+.services-menu, .services-header {
     padding-bottom: 40px;
     text-align: center;
 }
-.services-menu li{
+.services-menu li {
     padding: 10px;
     display: inline;
     color: gray;
     -webkit-animation: fadein 2s;
 }
-.services-menu-button{
+.services-menu-button {
     cursor: pointer;
     font-weight: normal;
 }
-.services-menu-button.active{
+.services-menu-button.active {
     text-decoration: underline;
 }
-.services-menu-button a{
+.services-menu-button a {
     color: inherit;
     font-size: 15px;
 }
-.services-menu-button:hover a{
+.services-menu-button:hover a {
     color: black;
 }
-.service-two-info{
+.service-two-info {
     -webkit-animation: fadein 4s;
 }
-.service-menu-title{
+.service-menu-title {
     font: bold;
     font-size: 16px;
 }
-.service-menu-description{
+.service-menu-description {
     margin-top: 30px;
     color: gray;
     font-size: 14px;
@@ -334,7 +336,7 @@ div.box:nth-child(even){
 /* End Services Section */
 
 /* Start Team Section */
-.user-pic{
+.user-pic {
     width: 150px;
     height: 150px;
     overflow: hidden;
@@ -347,19 +349,19 @@ div.box:nth-child(even){
     /* transform: rotate(-30deg); */
     transition: 0.5s;
 }
-.card-box:hover .user-pic{
+.card-box:hover .user-pic {
     transform: rotate(0deg);
     transform: scale(1.1);
 }
-.card-box:hover h4{
+.card-box:hover h4 {
     font-size: 24.5px;
     transition: 0.5s;
 }
-.card-box:hover h6{
+.card-box:hover h6 {
     font-size: 16.5px;
     transition: 0.5s;
 }
-.card-box{
+.card-box {
     padding: 15px;
     background-color: #fdfdfd;
     margin: 20px 0px;
@@ -368,42 +370,42 @@ div.box:nth-child(even){
     box-shadow: 0px 0px 8px 0px #d4d4d4;
     transition: 0.5s;
 }
-.card-box:hover{
+.card-box:hover {
 	border: 1px solid #be9342;
 }
-.card-box p{
+.card-box p {
     color: #808080;
 }
 /* End Team Section */
 
 /* Start About Section */
-.about-section{
+.about-section {
     overflow: hidden;
     text-align:center;
 }
-.about-item{
+.about-item {
     padding-top: 50px;
     display: inline-block;
     width: 420px;
 }
-.about-item:hover h6{
+.about-item:hover h6 {
     font-size: 20.4px;
 }
-.about-item:hover p{
+.about-item:hover p {
     font-size: 17.4px;
 }
 .about-title{
     font-size: 20px;
     font-weight: bold;
 }
-.about-description{
+.about-description {
     font-size: 17px;
 }
 /* End About Section */
 
 
 /* Start Gallery Section */
-#portfolio{
+#portfolio {
     margin: auto;
     width: 85%;
     text-align-last: center;
@@ -415,20 +417,20 @@ div.box:nth-child(even){
     grid-template-rows: 1fr 1fr;
     grid-gap: 22px;
 }
-.project{
+.project {
     position: relative;
     background: #F2DAD7;
     overflow: hidden;
 }
-.project img{
+.project img {
     position: absolute;
     opacity: 0.9;
 }
 /*  project hover overlay */
-  .project:hover .grid__overlay{
+  .project:hover .grid__overlay {
     transform: translateY(0%);
 }
-.grid__overlay{
+.grid__overlay {
     background: rgba(darken(#F2DAD7, 10%), .9);
     height: 100%;
     grid-column: 1 / -1;
@@ -440,7 +442,7 @@ div.box:nth-child(even){
     transform: translateY(101%);
     transition: all 0.3s ease-in-out;
 }
-.grid__overlay button{
+.grid__overlay button {
     background: none;
     outline: none;
     font-weight: 100;
@@ -450,14 +452,14 @@ div.box:nth-child(even){
     text-transform: uppercase;
     padding: 10px;
 }
-.grid__overlay button:hover{
+.grid__overlay button:hover {
     transition: all 0.3s ease-in-out;
     background: white;
     color: #be9342;
     transform: scale(1.05);
 }
 /* //project popup overlay */
-.overlay{
+.overlay {
     position: fixed;
     background: rgba(#474545, 0.7);
     top: 0;
@@ -467,19 +469,19 @@ div.box:nth-child(even){
     display: none;
     z-index: 3;
 }
-.overlay.open{
+.overlay.open {
     display: grid;
     align-items: center;
     justify-items: center;
 }
-.overlay__inner{
+.overlay__inner {
     background: white;
     width: 700px;
     padding: 20px;
     position: relative;
     opacity: 1;
 }
-.close{
+.close {
     position: absolute;
     top: 3px;
     right: 10px;
@@ -490,7 +492,7 @@ div.box:nth-child(even){
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.close:hover{
+.close:hover {
     color: #be9342;
 }
 /* End Gallery Section */
